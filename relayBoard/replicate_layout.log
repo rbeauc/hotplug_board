@@ -1,0 +1,227 @@
+08-08 13:35:39 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+08-08 13:35:39 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+08-08 13:35:39 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6)-1
+08-08 13:35:39 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 68 started
+08-08 13:35:39 replicate_layout.action_replicate_layout 319:wx top level windows: wxWindowList: [<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x5b9d8e0> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x52af250> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xa802270> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xaca8900> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1f0f1050> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1fa598a0> >, <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1fa572d0> >]
+08-08 13:35:39 replicate_layout.action_replicate_layout 343:Preparing replicator with K43 as a reference
+08-08 13:35:39 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+08-08 13:35:39 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'5F6754BA': [u'sheet5F675461', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F4245E7': [u'sheet5F4245CA', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F675496': [u'sheet5F67545E', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3C948E': [u'sheet5F3C9486', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F42467C': [u'sheet5F4245D4', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F6754DE': [u'sheet5F675464', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3E98FF': [u'sheet5F3E986F', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F4246A1': [u'sheet5F4245D6', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F4246AF': [u'sheet5F4245D7', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F4246BD': [u'sheet5F4245D8', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F61C12A': [u'sheet5F61C116', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F42461A': [u'sheet5F4245CD', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F56F83F': [u'sheet5F56F839', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F71169A': [u'Sheet5F711699', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\POWER.sch'], u'5F3BDA7F': [u'sheet5F3BDA77', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3C5DFC': [u'sheet5F3C5DF4', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5CDBA1F6': [u'Channel0', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F4246E7': [u'sheet5F4245DB', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F5B1EB9': [u'sheet5F5B1EB3', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F424636': [u'sheet5F4245CF', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F67547E': [u'sheet5F67545C', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3E98C7': [u'sheet5F3E986B', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3E989D': [u'sheet5F3E9868', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3E98E3': [u'sheet5F3E986D', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F424644': [u'sheet5F4245D0', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F424703': [u'sheet5F4245DD', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F6754C6': [u'sheet5F675462', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F4245FE': [u'sheet5F4245CB', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F6754A2': [u'sheet5F67545F', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F424660': [u'sheet5F4245D2', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F424628': [u'sheet5F4245CE', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3CDFAA': [u'sheet5F3CDFA2', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F6754AE': [u'sheet5F675460', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F42466E': [u'sheet5F4245D3', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3C2359': [u'sheet5F3C2351', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F61C142': [u'sheet5F61C118', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3D8E29': [u'sheet5F3D8E21', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F4246CB': [u'sheet5F4245D9', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3C7671': [u'sheet5F3C7669', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F42460C': [u'sheet5F4245CC', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3E98AB': [u'sheet5F3E9869', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F711419': [u'Sheet5F711418', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\IO.sch'], u'5F67548A': [u'sheet5F67545D', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3E9878': [u'sheet5F3E9866', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F42468A': [u'sheet5F4245D5', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3C4958': [u'sheet5F3C4950', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F4246D9': [u'sheet5F4245DA', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F61C136': [u'sheet5F61C117', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F6436CE': [u'sheet5F6436C7', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3C0285': [u'sheet5F3C027D', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F6436DA': [u'sheet5F6436C8', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F4246F5': [u'sheet5F4245DC', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F67546B': [u'sheet5F67545B', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F61C11E': [u'sheet5F61C115', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3CB793': [u'sheet5F3CB78B', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F4C6A0F': [u'INPUT_2_0', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3E988F': [u'sheet5F3E9867', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F6754D2': [u'sheet5F675463', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F424711': [u'sheet5F4245DE', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F5F7024': [u'sheet5F5F701E', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3E98F1': [u'sheet5F3E986E', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F5D40EE': [u'sheet5F5D40E8', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\SSR_CHANNEL.sch'], u'5F3E98D5': [u'sheet5F3E986C', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F424652': [u'sheet5F4245D1', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch'], u'5F3E98B9': [u'sheet5F3E986A', u'C:\\Users\\rbeauche\\Documents\\PCBs\\github\\hotplug\\hotplug_board\\relayBoard\\relayChannel.sch']}
+08-08 13:35:39 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+08-08 13:35:39 replicate_layout.action_replicate_layout 370:source anchor footprint is u'K43'
+Located on:[u'INPUT_2_0']
+With filenames:[u'SSR_CHANNEL.sch']
+With sheet_id:[u'INPUT_2_0']
+08-08 13:35:39 replicate_layout.action_replicate_layout 374:Corresponding footprints are 
+[(u'K63', [u'sheet5F675464']), (u'K62', [u'sheet5F675463']), (u'K61', [u'sheet5F675462']), (u'K60', [u'sheet5F675461']), (u'K59', [u'sheet5F675460']), (u'K58', [u'sheet5F67545F']), (u'K57', [u'sheet5F67545E']), (u'K56', [u'sheet5F67545D']), (u'K55', [u'sheet5F67545C']), (u'K54', [u'sheet5F67545B']), (u'K53', [u'sheet5F6436C8']), (u'K52', [u'sheet5F6436C7']), (u'K51', [u'sheet5F61C118']), (u'K50', [u'sheet5F61C117']), (u'K49', [u'sheet5F61C116']), (u'K48', [u'sheet5F61C115']), (u'K47', [u'sheet5F5F701E']), (u'K46', [u'sheet5F5D40E8']), (u'K45', [u'sheet5F5B1EB3']), (u'K44', [u'sheet5F56F839']), (u'K43', [u'INPUT_2_0'])]
+08-08 13:35:39 replicate_layout.action_replicate_layout 387:Showing dialog
+08-08 13:35:39 replicate_layout.action_replicate_layout 391:Pcbnew position: wx.Point(-8, -8)
+08-08 13:35:39 replicate_layout.action_replicate_layout 397:Display 0: wx.Rect(0, 0, 1920, 1080)
+08-08 13:35:39 replicate_layout.action_replicate_layout 401:Toolbar position: wx.Point(1722, 115)
+08-08 13:35:39 replicate_layout.action_replicate_layout 408:Dialog position: wx.Point(1409, 115)
+08-08 13:35:42 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'INPUT_2_0', file:u'SSR_CHANNEL.sch'
+08-08 13:35:42 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'INPUT_2_0']
+08-08 13:35:42 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'K63', u'K62', u'K61', u'K60', u'K59', u'K58', u'K57', u'K56', u'K55', u'K54', u'K53', u'K52', u'K51', u'K50', u'K49', u'K48', u'K47', u'K46', u'K45', u'K44', u'K43']
+08-08 13:35:42 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/5F6754DE/63133440', u'/5F6754D2/63133440', u'/5F6754C6/63133440', u'/5F6754BA/63133440', u'/5F6754AE/63133440', u'/5F6754A2/63133440', u'/5F675496/63133440', u'/5F67548A/63133440', u'/5F67547E/63133440', u'/5F67546B/63133440', u'/5F6436DA/63133440', u'/5F6436CE/63133440', u'/5F61C142/63133440', u'/5F61C136/63133440', u'/5F61C12A/63133440', u'/5F61C11E/63133440', u'/5F5F7024/63133440', u'/5F5D40EE/63133440', u'/5F5B1EB9/63133440', u'/5F56F83F/63133440', u'/5F4C6A0F/63133440']
+08-08 13:35:42 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet5F675464'], [u'sheet5F675463'], [u'sheet5F675462'], [u'sheet5F675461'], [u'sheet5F675460'], [u'sheet5F67545F'], [u'sheet5F67545E'], [u'sheet5F67545D'], [u'sheet5F67545C'], [u'sheet5F67545B'], [u'sheet5F6436C8'], [u'sheet5F6436C7'], [u'sheet5F61C118'], [u'sheet5F61C117'], [u'sheet5F61C116'], [u'sheet5F61C115'], [u'sheet5F5F701E'], [u'sheet5F5D40E8'], [u'sheet5F5B1EB3'], [u'sheet5F56F839'], [u'INPUT_2_0']]
+08-08 13:35:42 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'INPUT_2_0'], [u'sheet5F56F839'], [u'sheet5F5B1EB3'], [u'sheet5F5D40E8'], [u'sheet5F5F701E'], [u'sheet5F61C115'], [u'sheet5F61C116'], [u'sheet5F61C117'], [u'sheet5F61C118'], [u'sheet5F6436C7'], [u'sheet5F6436C8'], [u'sheet5F67545B'], [u'sheet5F67545C'], [u'sheet5F67545D'], [u'sheet5F67545E'], [u'sheet5F67545F'], [u'sheet5F675460'], [u'sheet5F675461'], [u'sheet5F675462'], [u'sheet5F675463'], [u'sheet5F675464']]
+08-08 13:35:42 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet5F56F839'], [u'sheet5F5B1EB3'], [u'sheet5F5D40E8'], [u'sheet5F5F701E'], [u'sheet5F61C115'], [u'sheet5F61C116'], [u'sheet5F61C117'], [u'sheet5F61C118'], [u'sheet5F6436C7'], [u'sheet5F6436C8'], [u'sheet5F67545B'], [u'sheet5F67545C'], [u'sheet5F67545D'], [u'sheet5F67545E'], [u'sheet5F67545F'], [u'sheet5F675460'], [u'sheet5F675461'], [u'sheet5F675462'], [u'sheet5F675463'], [u'sheet5F675464']]
+08-08 13:35:55 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'INPUT_2_0', file:u'SSR_CHANNEL.sch'
+08-08 13:35:55 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'INPUT_2_0']
+08-08 13:35:55 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'K63', u'K62', u'K61', u'K60', u'K59', u'K58', u'K57', u'K56', u'K55', u'K54', u'K53', u'K52', u'K51', u'K50', u'K49', u'K48', u'K47', u'K46', u'K45', u'K44', u'K43']
+08-08 13:35:55 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/5F6754DE/63133440', u'/5F6754D2/63133440', u'/5F6754C6/63133440', u'/5F6754BA/63133440', u'/5F6754AE/63133440', u'/5F6754A2/63133440', u'/5F675496/63133440', u'/5F67548A/63133440', u'/5F67547E/63133440', u'/5F67546B/63133440', u'/5F6436DA/63133440', u'/5F6436CE/63133440', u'/5F61C142/63133440', u'/5F61C136/63133440', u'/5F61C12A/63133440', u'/5F61C11E/63133440', u'/5F5F7024/63133440', u'/5F5D40EE/63133440', u'/5F5B1EB9/63133440', u'/5F56F83F/63133440', u'/5F4C6A0F/63133440']
+08-08 13:35:55 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet5F675464'], [u'sheet5F675463'], [u'sheet5F675462'], [u'sheet5F675461'], [u'sheet5F675460'], [u'sheet5F67545F'], [u'sheet5F67545E'], [u'sheet5F67545D'], [u'sheet5F67545C'], [u'sheet5F67545B'], [u'sheet5F6436C8'], [u'sheet5F6436C7'], [u'sheet5F61C118'], [u'sheet5F61C117'], [u'sheet5F61C116'], [u'sheet5F61C115'], [u'sheet5F5F701E'], [u'sheet5F5D40E8'], [u'sheet5F5B1EB3'], [u'sheet5F56F839'], [u'INPUT_2_0']]
+08-08 13:35:55 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'INPUT_2_0'], [u'sheet5F56F839'], [u'sheet5F5B1EB3'], [u'sheet5F5D40E8'], [u'sheet5F5F701E'], [u'sheet5F61C115'], [u'sheet5F61C116'], [u'sheet5F61C117'], [u'sheet5F61C118'], [u'sheet5F6436C7'], [u'sheet5F6436C8'], [u'sheet5F67545B'], [u'sheet5F67545C'], [u'sheet5F67545D'], [u'sheet5F67545E'], [u'sheet5F67545F'], [u'sheet5F675460'], [u'sheet5F675461'], [u'sheet5F675462'], [u'sheet5F675463'], [u'sheet5F675464']]
+08-08 13:35:55 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet5F56F839'], [u'sheet5F5B1EB3'], [u'sheet5F5D40E8'], [u'sheet5F5F701E'], [u'sheet5F61C115'], [u'sheet5F61C116'], [u'sheet5F61C117'], [u'sheet5F61C118'], [u'sheet5F6436C7'], [u'sheet5F6436C8'], [u'sheet5F67545B'], [u'sheet5F67545C'], [u'sheet5F67545D'], [u'sheet5F67545E'], [u'sheet5F67545F'], [u'sheet5F675460'], [u'sheet5F675461'], [u'sheet5F675462'], [u'sheet5F675463'], [u'sheet5F675464']]
+08-08 13:35:55 replicate_layout.action_replicate_layout 179:Replicating layout
+08-08 13:35:55 replicate_layout.replicatelayout 990:Starting replication of sheets: [[u'sheet5F56F839'], [u'sheet5F5B1EB3'], [u'sheet5F5D40E8'], [u'sheet5F5F701E'], [u'sheet5F61C115'], [u'sheet5F61C116'], [u'sheet5F61C117'], [u'sheet5F61C118'], [u'sheet5F6436C7'], [u'sheet5F6436C8'], [u'sheet5F67545B'], [u'sheet5F67545C'], [u'sheet5F67545D'], [u'sheet5F67545E'], [u'sheet5F67545F'], [u'sheet5F675460'], [u'sheet5F675461'], [u'sheet5F675462'], [u'sheet5F675463'], [u'sheet5F675464']]
+on level: [u'INPUT_2_0']
+with tracks=True, zone=True, text=True, containing=False, remove=True, locked=False
+08-08 13:35:55 root 261:updating GUI message: 'Preparing for replication'
+08-08 13:35:55 root 266:updating GUI with: 0
+08-08 13:35:55 replicate_layout.replicatelayout 556:Getting the list of source footprints
+08-08 13:35:55 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+08-08 13:35:55 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+08-08 13:35:56 replicate_layout.replicatelayout 568:Getting source bounding box
+08-08 13:35:56 root 266:updating GUI with: 37
+08-08 13:35:56 replicate_layout.replicatelayout 572:Getting source tracks
+08-08 13:35:56 replicate_layout.replicatelayout 576:Getting source zones
+08-08 13:35:56 root 266:updating GUI with: 62
+08-08 13:35:56 replicate_layout.replicatelayout 580:Getting source text items
+08-08 13:35:56 replicate_layout.replicatelayout 584:Getting source text items
+08-08 13:35:56 replicate_layout.replicatelayout 1018:Removing tracks and zones, before module placement
+08-08 13:35:56 root 261:updating GUI message: 'Removing zones and tracks'
+08-08 13:35:56 root 266:updating GUI with: 5
+08-08 13:35:56 root 266:updating GUI with: 10
+08-08 13:35:56 root 266:updating GUI with: 15
+08-08 13:35:56 root 266:updating GUI with: 20
+08-08 13:35:56 root 266:updating GUI with: 25
+08-08 13:35:56 root 266:updating GUI with: 30
+08-08 13:35:56 root 266:updating GUI with: 35
+08-08 13:35:56 root 266:updating GUI with: 40
+08-08 13:35:56 root 266:updating GUI with: 45
+08-08 13:35:56 root 266:updating GUI with: 50
+08-08 13:35:57 root 266:updating GUI with: 55
+08-08 13:35:57 root 266:updating GUI with: 60
+08-08 13:35:57 root 266:updating GUI with: 65
+08-08 13:35:57 root 266:updating GUI with: 70
+08-08 13:35:57 root 266:updating GUI with: 75
+08-08 13:35:57 root 266:updating GUI with: 80
+08-08 13:35:57 root 266:updating GUI with: 85
+08-08 13:35:57 root 266:updating GUI with: 90
+08-08 13:35:57 root 266:updating GUI with: 95
+08-08 13:35:57 root 261:updating GUI message: 'Replicating footprints'
+08-08 13:35:57 root 266:updating GUI with: 0
+08-08 13:35:57 replicate_layout.replicatelayout 590:Replicating footprints
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F56F839']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F5B1EB3']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F5D40E8']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F5F701E']
+08-08 13:35:57 root 266:updating GUI with: 18
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F61C115']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F61C116']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F61C117']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F61C118']
+08-08 13:35:57 root 266:updating GUI with: 40
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F6436C7']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F6436C8']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F67545B']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F67545C']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F67545D']
+08-08 13:35:57 root 266:updating GUI with: 61
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F67545E']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F67545F']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F675460']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F675461']
+08-08 13:35:57 root 266:updating GUI with: 85
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F675462']
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F675463']
+08-08 13:35:57 root 266:updating GUI with: 95
+08-08 13:35:57 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet5F675464']
+08-08 13:35:57 replicate_layout.replicatelayout 1026:Removing tracks and zones, after module placement
+08-08 13:35:57 root 261:updating GUI message: 'Removing zones and tracks'
+08-08 13:35:58 root 266:updating GUI with: 5
+08-08 13:35:58 root 266:updating GUI with: 10
+08-08 13:35:58 root 266:updating GUI with: 15
+08-08 13:35:58 root 266:updating GUI with: 20
+08-08 13:35:58 root 266:updating GUI with: 25
+08-08 13:35:58 root 266:updating GUI with: 30
+08-08 13:35:58 root 266:updating GUI with: 35
+08-08 13:35:58 root 266:updating GUI with: 40
+08-08 13:35:58 root 266:updating GUI with: 45
+08-08 13:35:58 root 266:updating GUI with: 50
+08-08 13:35:58 root 266:updating GUI with: 55
+08-08 13:35:59 root 266:updating GUI with: 60
+08-08 13:35:59 root 266:updating GUI with: 65
+08-08 13:35:59 root 266:updating GUI with: 70
+08-08 13:35:59 root 266:updating GUI with: 75
+08-08 13:35:59 root 266:updating GUI with: 80
+08-08 13:35:59 root 266:updating GUI with: 85
+08-08 13:35:59 root 266:updating GUI with: 90
+08-08 13:35:59 root 266:updating GUI with: 95
+08-08 13:35:59 root 261:updating GUI message: 'Replicating tracks'
+08-08 13:35:59 root 266:updating GUI with: 0
+08-08 13:35:59 replicate_layout.replicatelayout 716:Replicating tracks
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F56F839']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F5B1EB3']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F5D40E8']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F5F701E']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F61C115']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F61C116']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F61C117']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F61C118']
+08-08 13:35:59 root 266:updating GUI with: 35
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F6436C7']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F6436C8']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F67545B']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F67545C']
+08-08 13:35:59 root 266:updating GUI with: 55
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F67545D']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F67545E']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F67545F']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F675460']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F675461']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F675462']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F675463']
+08-08 13:35:59 replicate_layout.replicatelayout 722:Replicating tracks on sheet [u'sheet5F675464']
+08-08 13:35:59 root 266:updating GUI with: 95
+08-08 13:35:59 root 261:updating GUI message: 'Replicating zones'
+08-08 13:35:59 replicate_layout.replicatelayout 767:Replicating zones
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F56F839']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F5B1EB3']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F5D40E8']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F5F701E']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F61C115']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F61C116']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F61C117']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F61C118']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F6436C7']
+08-08 13:35:59 root 266:updating GUI with: 45
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F6436C8']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F67545B']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F67545C']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F67545D']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F67545E']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F67545F']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F675460']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F675461']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F675462']
+08-08 13:35:59 root 266:updating GUI with: 90
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F675463']
+08-08 13:35:59 replicate_layout.replicatelayout 774:Replicating zones on sheet [u'sheet5F675464']
+08-08 13:35:59 root 261:updating GUI message: 'Replicating text'
+08-08 13:35:59 replicate_layout.replicatelayout 833:Replicating text
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F56F839']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F5B1EB3']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F5D40E8']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F5F701E']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F61C115']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F61C116']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F61C117']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F61C118']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F6436C7']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F6436C8']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F67545B']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F67545C']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F67545D']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F67545E']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F67545F']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F675460']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F675461']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F675462']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F675463']
+08-08 13:35:59 replicate_layout.replicatelayout 840:Replicating text on sheet [u'sheet5F675464']
+08-08 13:35:59 root 261:updating GUI message: 'Replicating drawings'
+08-08 13:35:59 replicate_layout.replicatelayout 864:Replicating drawings
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F56F839']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F5B1EB3']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F5D40E8']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F5F701E']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F61C115']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F61C116']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F61C117']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F61C118']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F6436C7']
+08-08 13:35:59 root 266:updating GUI with: 45
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F6436C8']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F67545B']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F67545C']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F67545D']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F67545E']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F67545F']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F675460']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F675461']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F675462']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F675463']
+08-08 13:35:59 replicate_layout.replicatelayout 870:Replicating drawings on sheet [u'sheet5F675464']
+08-08 13:35:59 replicate_layout.action_replicate_layout 201:Replication complete

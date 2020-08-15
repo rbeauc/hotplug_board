@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:relayBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -27,10 +26,10 @@ F6 "NO" I L 7800 1400 50
 F7 "NC" I L 7800 1500 50 
 $EndSheet
 $Comp
-L power:+12V #PWR03
+L power:+12V #PWR010
 U 1 1 5CDE4D2C
 P 7650 1050
-F 0 "#PWR03" H 7650 900 50  0001 C CNN
+F 0 "#PWR010" H 7650 900 50  0001 C CNN
 F 1 "+12V" H 7665 1223 50  0000 C CNN
 F 2 "" H 7650 1050 50  0001 C CNN
 F 3 "" H 7650 1050 50  0001 C CNN
@@ -52,10 +51,10 @@ Wire Wire Line
 Text Label 8650 1350 0    50   ~ 0
 OUT0
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L Connector_Generic:Conn_01x01 J1
 U 1 1 5CE29B1B
 P 1050 5350
-F 0 "J3" H 968 5125 50  0000 C CNN
+F 0 "J1" H 968 5125 50  0000 C CNN
 F 1 "Conn_01x01" H 968 5216 50  0000 C CNN
 F 2 "Connector:Banana_Jack_1Pin" H 1050 5350 50  0001 C CNN
 F 3 "~" H 1050 5350 50  0001 C CNN
@@ -63,10 +62,10 @@ F 3 "~" H 1050 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J4
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5CE2A0D2
 P 1050 5750
-F 0 "J4" H 968 5525 50  0000 C CNN
+F 0 "J2" H 968 5525 50  0000 C CNN
 F 1 "Conn_01x01" H 968 5616 50  0000 C CNN
 F 2 "Connector:Banana_Jack_1Pin" H 1050 5750 50  0001 C CNN
 F 3 "~" H 1050 5750 50  0001 C CNN
@@ -89,10 +88,10 @@ $EndComp
 Wire Wire Line
 	1550 5750 1550 5850
 $Comp
-L Connector_Generic:Conn_01x01 J5
+L Connector_Generic:Conn_01x01 J3
 U 1 1 5D1CE400
 P 1050 6300
-F 0 "J5" H 968 6075 50  0000 C CNN
+F 0 "J3" H 968 6075 50  0000 C CNN
 F 1 "Conn_01x01" H 968 6166 50  0000 C CNN
 F 2 "Connector:Banana_Jack_1Pin" H 1050 6300 50  0001 C CNN
 F 3 "~" H 1050 6300 50  0001 C CNN
@@ -100,10 +99,10 @@ F 3 "~" H 1050 6300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
+L Connector_Generic:Conn_01x01 J4
 U 1 1 5D1CE406
 P 1050 6700
-F 0 "J6" H 968 6475 50  0000 C CNN
+F 0 "J4" H 968 6475 50  0000 C CNN
 F 1 "Conn_01x01" H 968 6566 50  0000 C CNN
 F 2 "Connector:Banana_Jack_1Pin" H 1050 6700 50  0001 C CNN
 F 3 "~" H 1050 6700 50  0001 C CNN
@@ -113,10 +112,10 @@ $EndComp
 Text Label 1450 6300 0    50   ~ 0
 12V
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR02
 U 1 1 5D1CE40E
 P 1550 6800
-F 0 "#PWR0101" H 1550 6550 50  0001 C CNN
+F 0 "#PWR02" H 1550 6550 50  0001 C CNN
 F 1 "GND" H 1555 6627 50  0000 C CNN
 F 2 "" H 1550 6800 50  0001 C CNN
 F 3 "" H 1550 6800 50  0001 C CNN
@@ -126,10 +125,10 @@ $EndComp
 Wire Wire Line
 	1550 6700 1550 6800
 $Comp
-L Connector_Generic:Conn_01x01 J7
+L Connector_Generic:Conn_01x01 J5
 U 1 1 5D201003
 P 1050 7300
-F 0 "J7" H 968 7075 50  0000 C CNN
+F 0 "J5" H 968 7075 50  0000 C CNN
 F 1 "Conn_01x01" H 968 7166 50  0000 C CNN
 F 2 "Connector:Banana_Jack_1Pin" H 1050 7300 50  0001 C CNN
 F 3 "~" H 1050 7300 50  0001 C CNN
@@ -137,10 +136,10 @@ F 3 "~" H 1050 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J8
+L Connector_Generic:Conn_01x01 J6
 U 1 1 5D201009
 P 1050 7700
-F 0 "J8" H 968 7475 50  0000 C CNN
+F 0 "J6" H 968 7475 50  0000 C CNN
 F 1 "Conn_01x01" H 968 7566 50  0000 C CNN
 F 2 "Connector:Banana_Jack_1Pin" H 1050 7700 50  0001 C CNN
 F 3 "~" H 1050 7700 50  0001 C CNN
@@ -148,12 +147,12 @@ F 3 "~" H 1050 7700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 1450 7300 0    50   ~ 0
-INPUT_2
+INPUT_2_IN
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR03
 U 1 1 5D201011
 P 1550 7800
-F 0 "#PWR0102" H 1550 7550 50  0001 C CNN
+F 0 "#PWR03" H 1550 7550 50  0001 C CNN
 F 1 "GND" H 1555 7627 50  0000 C CNN
 F 2 "" H 1550 7800 50  0001 C CNN
 F 3 "" H 1550 7800 50  0001 C CNN
@@ -167,10 +166,10 @@ Wire Wire Line
 Wire Wire Line
 	1250 7700 1550 7700
 $Comp
-L power:+12V #PWR0103
+L power:+12V #PWR04
 U 1 1 5D283FC1
 P 1700 6250
-F 0 "#PWR0103" H 1700 6100 50  0001 C CNN
+F 0 "#PWR04" H 1700 6100 50  0001 C CNN
 F 1 "+12V" H 1715 6423 50  0000 C CNN
 F 2 "" H 1700 6250 50  0001 C CNN
 F 3 "" H 1700 6250 50  0001 C CNN
@@ -504,10 +503,10 @@ F6 "NO" I L 9700 1400 50
 F7 "NC" I L 9700 1500 50 
 $EndSheet
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR012
 U 1 1 5F3E987E
 P 9550 1050
-F 0 "#PWR?" H 9550 900 50  0001 C CNN
+F 0 "#PWR012" H 9550 900 50  0001 C CNN
 F 1 "+12V" H 9565 1223 50  0000 C CNN
 F 2 "" H 9550 1050 50  0001 C CNN
 F 3 "" H 9550 1050 50  0001 C CNN
@@ -757,10 +756,10 @@ F6 "NO" I L 3150 1400 50
 F7 "NC" I L 3150 1500 50 
 $EndSheet
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR06
 U 1 1 5F4245ED
 P 3000 1050
-F 0 "#PWR?" H 3000 900 50  0001 C CNN
+F 0 "#PWR06" H 3000 900 50  0001 C CNN
 F 1 "+12V" H 3015 1223 50  0000 C CNN
 F 2 "" H 3000 1050 50  0001 C CNN
 F 3 "" H 3000 1050 50  0001 C CNN
@@ -1032,10 +1031,10 @@ F6 "NO" I L 5050 1400 50
 F7 "NC" I L 5050 1500 50 
 $EndSheet
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR08
 U 1 1 5F424690
 P 4900 1050
-F 0 "#PWR?" H 4900 900 50  0001 C CNN
+F 0 "#PWR08" H 4900 900 50  0001 C CNN
 F 1 "+12V" H 4915 1223 50  0000 C CNN
 F 2 "" H 4900 1050 50  0001 C CNN
 F 3 "" H 4900 1050 50  0001 C CNN
@@ -1285,10 +1284,10 @@ Wire Wire Line
 Wire Wire Line
 	12100 1100 12100 1050
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR013
 U 1 1 5F50D539
 P 12100 1050
-F 0 "#PWR?" H 12100 900 50  0001 C CNN
+F 0 "#PWR013" H 12100 900 50  0001 C CNN
 F 1 "+5V" H 12115 1223 50  0000 C CNN
 F 2 "" H 12100 1050 50  0001 C CNN
 F 3 "" H 12100 1050 50  0001 C CNN
@@ -1496,10 +1495,10 @@ Wire Wire Line
 Wire Wire Line
 	14050 1100 14050 1050
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR014
 U 1 1 5F675473
 P 14050 1050
-F 0 "#PWR?" H 14050 900 50  0001 C CNN
+F 0 "#PWR014" H 14050 900 50  0001 C CNN
 F 1 "+5V" H 14065 1223 50  0000 C CNN
 F 2 "" H 14050 1050 50  0001 C CNN
 F 3 "" H 14050 1050 50  0001 C CNN
@@ -1751,6 +1750,7 @@ F0 "Sheet5F711699" 50
 F1 "POWER.sch" 50
 F2 "HV_SWITCH" I L 5800 9350 50 
 F3 "HV" I L 5800 9550 50 
+F4 "HV_OUT" I L 5800 9650 50 
 $EndSheet
 Wire Wire Line
 	950  8350 700  8350
@@ -2198,10 +2198,10 @@ Wire Wire Line
 	2700 8200 2700 8700
 Connection ~ 2700 8200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 60EB8DE5
 P 2700 8700
-F 0 "#PWR?" H 2700 8450 50  0001 C CNN
+F 0 "#PWR05" H 2700 8450 50  0001 C CNN
 F 1 "GND" H 2705 8527 50  0000 C CNN
 F 2 "" H 2700 8700 50  0001 C CNN
 F 3 "" H 2700 8700 50  0001 C CNN
@@ -2293,10 +2293,10 @@ Wire Wire Line
 	7350 8200 7350 8700
 Connection ~ 7350 8200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 619C5F1D
 P 7350 8700
-F 0 "#PWR?" H 7350 8450 50  0001 C CNN
+F 0 "#PWR09" H 7350 8450 50  0001 C CNN
 F 1 "GND" H 7355 8527 50  0000 C CNN
 F 2 "" H 7350 8700 50  0001 C CNN
 F 3 "" H 7350 8700 50  0001 C CNN
@@ -2306,34 +2306,34 @@ $EndComp
 Wire Wire Line
 	5050 1300 4350 1300
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J7
 U 1 1 61A1C823
 P 1200 2550
-F 0 "J?" H 1250 2867 50  0000 C CNN
+F 0 "J7" H 1250 2867 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 1250 2776 50  0000 C CNN
-F 2 "" H 1200 2550 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 1200 2550 50  0001 C CNN
 F 3 "~" H 1200 2550 50  0001 C CNN
 	1    1200 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J8
 U 1 1 61A1DBB0
 P 1200 3200
-F 0 "J?" H 1250 3517 50  0000 C CNN
+F 0 "J8" H 1250 3517 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 1250 3426 50  0000 C CNN
-F 2 "" H 1200 3200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 1200 3200 50  0001 C CNN
 F 3 "~" H 1200 3200 50  0001 C CNN
 	1    1200 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J9
 U 1 1 61A70830
 P 1200 3850
-F 0 "J?" H 1250 4167 50  0000 C CNN
+F 0 "J9" H 1250 4167 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 1250 4076 50  0000 C CNN
-F 2 "" H 1200 3850 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 1200 3850 50  0001 C CNN
 F 3 "~" H 1200 3850 50  0001 C CNN
 	1    1200 3850
 	1    0    0    -1  
@@ -2387,34 +2387,34 @@ Wire Wire Line
 Wire Wire Line
 	1700 4050 1500 4050
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J10
 U 1 1 6200B8FE
 P 15750 2550
-F 0 "J?" H 15800 2867 50  0000 C CNN
+F 0 "J10" H 15800 2867 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 15800 2776 50  0000 C CNN
-F 2 "" H 15750 2550 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 15750 2550 50  0001 C CNN
 F 3 "~" H 15750 2550 50  0001 C CNN
 	1    15750 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J11
 U 1 1 6200B904
 P 15750 3200
-F 0 "J?" H 15800 3517 50  0000 C CNN
+F 0 "J11" H 15800 3517 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 15800 3426 50  0000 C CNN
-F 2 "" H 15750 3200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 15750 3200 50  0001 C CNN
 F 3 "~" H 15750 3200 50  0001 C CNN
 	1    15750 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J12
 U 1 1 6200B90A
 P 15750 3850
-F 0 "J?" H 15800 4167 50  0000 C CNN
+F 0 "J12" H 15800 4167 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 15800 4076 50  0000 C CNN
-F 2 "" H 15750 3850 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 15750 3850 50  0001 C CNN
 F 3 "~" H 15750 3850 50  0001 C CNN
 	1    15750 3850
 	1    0    0    -1  
@@ -2510,10 +2510,10 @@ I19
 Text Label 4350 7600 0    50   ~ 0
 I20
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 621C3830
 P 4600 8700
-F 0 "#PWR?" H 4600 8450 50  0001 C CNN
+F 0 "#PWR07" H 4600 8450 50  0001 C CNN
 F 1 "GND" H 4605 8527 50  0000 C CNN
 F 2 "" H 4600 8700 50  0001 C CNN
 F 3 "" H 4600 8700 50  0001 C CNN
@@ -2578,10 +2578,10 @@ C19
 Text Label 9000 7600 0    50   ~ 0
 C20
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 6258BE76
 P 9250 8700
-F 0 "#PWR?" H 9250 8450 50  0001 C CNN
+F 0 "#PWR011" H 9250 8450 50  0001 C CNN
 F 1 "GND" H 9255 8527 50  0000 C CNN
 F 2 "" H 9250 8700 50  0001 C CNN
 F 3 "" H 9250 8700 50  0001 C CNN
@@ -2730,7 +2730,7 @@ HV_SW
 Wire Wire Line
 	5800 9550 5300 9550
 Text Label 5300 9550 0    50   ~ 0
-INPUT_2
+INPUT_2_IN
 Text Label 11550 1500 0    50   ~ 0
 INPUT_2
 Text Label 11550 2200 0    50   ~ 0
@@ -2864,51 +2864,55 @@ IN19
 Text Label 1700 4050 0    50   ~ 0
 IN20
 Text Label 15350 2450 0    50   ~ 0
-OUT0
-Text Label 16250 2450 0    50   ~ 0
-OUT0
-Text Label 15350 2550 0    50   ~ 0
-OUT1
-Text Label 16250 2550 0    50   ~ 0
-OUT2
-Text Label 15350 2650 0    50   ~ 0
-OUT3
-Text Label 16250 2650 0    50   ~ 0
-OUT4
-Text Label 15350 2750 0    50   ~ 0
 OUT5
-Text Label 16250 2750 0    50   ~ 0
+Text Label 16250 2450 0    50   ~ 0
 OUT6
+Text Label 15350 2550 0    50   ~ 0
+OUT3
+Text Label 16250 2550 0    50   ~ 0
+OUT4
+Text Label 15350 2650 0    50   ~ 0
+OUT1
+Text Label 16250 2650 0    50   ~ 0
+OUT2
+Text Label 15350 2750 0    50   ~ 0
+OUT0
+Text Label 16250 2750 0    50   ~ 0
+OUT0
 Text Label 15350 3100 0    50   ~ 0
-OUT7
-Text Label 16250 3100 0    50   ~ 0
-OUT7
-Text Label 15350 3200 0    50   ~ 0
-OUT8
-Text Label 16250 3200 0    50   ~ 0
-OUT9
-Text Label 15350 3300 0    50   ~ 0
-OUT10
-Text Label 16250 3300 0    50   ~ 0
-OUT11
-Text Label 15350 3400 0    50   ~ 0
 OUT12
-Text Label 16250 3400 0    50   ~ 0
+Text Label 16250 3100 0    50   ~ 0
 OUT13
+Text Label 15350 3200 0    50   ~ 0
+OUT10
+Text Label 16250 3200 0    50   ~ 0
+OUT11
+Text Label 15350 3300 0    50   ~ 0
+OUT8
+Text Label 16250 3300 0    50   ~ 0
+OUT9
+Text Label 15350 3400 0    50   ~ 0
+OUT7
+Text Label 16250 3400 0    50   ~ 0
+OUT7
 Text Label 15350 3750 0    50   ~ 0
-OUT14
-Text Label 16250 3750 0    50   ~ 0
-OUT14
-Text Label 15350 3850 0    50   ~ 0
-OUT15
-Text Label 16250 3850 0    50   ~ 0
-OUT16
-Text Label 15350 3950 0    50   ~ 0
-OUT17
-Text Label 16250 3950 0    50   ~ 0
-OUT18
-Text Label 15350 4050 0    50   ~ 0
 OUT19
-Text Label 16250 4050 0    50   ~ 0
+Text Label 16250 3750 0    50   ~ 0
 OUT20
+Text Label 15350 3850 0    50   ~ 0
+OUT17
+Text Label 16250 3850 0    50   ~ 0
+OUT18
+Text Label 15350 3950 0    50   ~ 0
+OUT15
+Text Label 16250 3950 0    50   ~ 0
+OUT16
+Text Label 15350 4050 0    50   ~ 0
+OUT14
+Text Label 16250 4050 0    50   ~ 0
+OUT14
+Wire Wire Line
+	5800 9650 5300 9650
+Text Label 5300 9650 0    50   ~ 0
+INPUT_2
 $EndSCHEMATC
