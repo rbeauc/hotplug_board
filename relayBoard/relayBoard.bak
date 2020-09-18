@@ -148,7 +148,7 @@ F 3 "~" H 1050 7700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 1450 7300 0    50   ~ 0
-INPUT_2
+INPUT_2_IN
 $Comp
 L power:GND #PWR03
 U 1 1 5D201011
@@ -1751,6 +1751,7 @@ F0 "Sheet5F711699" 50
 F1 "POWER.sch" 50
 F2 "HV_SWITCH" I L 5800 9350 50 
 F3 "HV" I L 5800 9550 50 
+F4 "HV_OUT" I L 5800 9650 50 
 $EndSheet
 Wire Wire Line
 	950  8350 700  8350
@@ -2730,7 +2731,7 @@ HV_SW
 Wire Wire Line
 	5800 9550 5300 9550
 Text Label 5300 9550 0    50   ~ 0
-INPUT_2
+INPUT_2_IN
 Text Label 11550 1500 0    50   ~ 0
 INPUT_2
 Text Label 11550 2200 0    50   ~ 0
@@ -2864,51 +2865,55 @@ IN19
 Text Label 1700 4050 0    50   ~ 0
 IN20
 Text Label 15350 2450 0    50   ~ 0
-OUT0
-Text Label 16250 2450 0    50   ~ 0
-OUT0
-Text Label 15350 2550 0    50   ~ 0
-OUT1
-Text Label 16250 2550 0    50   ~ 0
-OUT2
-Text Label 15350 2650 0    50   ~ 0
-OUT3
-Text Label 16250 2650 0    50   ~ 0
-OUT4
-Text Label 15350 2750 0    50   ~ 0
 OUT5
-Text Label 16250 2750 0    50   ~ 0
+Text Label 16250 2450 0    50   ~ 0
 OUT6
+Text Label 15350 2550 0    50   ~ 0
+OUT3
+Text Label 16250 2550 0    50   ~ 0
+OUT4
+Text Label 15350 2650 0    50   ~ 0
+OUT1
+Text Label 16250 2650 0    50   ~ 0
+OUT2
+Text Label 15350 2750 0    50   ~ 0
+OUT0
+Text Label 16250 2750 0    50   ~ 0
+OUT0
 Text Label 15350 3100 0    50   ~ 0
-OUT7
-Text Label 16250 3100 0    50   ~ 0
-OUT7
-Text Label 15350 3200 0    50   ~ 0
-OUT8
-Text Label 16250 3200 0    50   ~ 0
-OUT9
-Text Label 15350 3300 0    50   ~ 0
-OUT10
-Text Label 16250 3300 0    50   ~ 0
-OUT11
-Text Label 15350 3400 0    50   ~ 0
 OUT12
-Text Label 16250 3400 0    50   ~ 0
+Text Label 16250 3100 0    50   ~ 0
 OUT13
+Text Label 15350 3200 0    50   ~ 0
+OUT10
+Text Label 16250 3200 0    50   ~ 0
+OUT11
+Text Label 15350 3300 0    50   ~ 0
+OUT8
+Text Label 16250 3300 0    50   ~ 0
+OUT9
+Text Label 15350 3400 0    50   ~ 0
+OUT7
+Text Label 16250 3400 0    50   ~ 0
+OUT7
 Text Label 15350 3750 0    50   ~ 0
-OUT14
-Text Label 16250 3750 0    50   ~ 0
-OUT14
-Text Label 15350 3850 0    50   ~ 0
-OUT15
-Text Label 16250 3850 0    50   ~ 0
-OUT16
-Text Label 15350 3950 0    50   ~ 0
-OUT17
-Text Label 16250 3950 0    50   ~ 0
-OUT18
-Text Label 15350 4050 0    50   ~ 0
 OUT19
-Text Label 16250 4050 0    50   ~ 0
+Text Label 16250 3750 0    50   ~ 0
 OUT20
+Text Label 15350 3850 0    50   ~ 0
+OUT17
+Text Label 16250 3850 0    50   ~ 0
+OUT18
+Text Label 15350 3950 0    50   ~ 0
+OUT15
+Text Label 16250 3950 0    50   ~ 0
+OUT16
+Text Label 15350 4050 0    50   ~ 0
+OUT14
+Text Label 16250 4050 0    50   ~ 0
+OUT14
+Wire Wire Line
+	5800 9650 5300 9650
+Text Label 5300 9650 0    50   ~ 0
+INPUT_2
 $EndSCHEMATC

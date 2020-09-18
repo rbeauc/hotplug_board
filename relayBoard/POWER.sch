@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:relayBoard-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L adum4121:ADuM4121 U6
+L relayBoard-rescue:ADuM4121-adum4121 U6
 U 1 1 63138DA1
 P 5300 2600
 F 0 "U6" H 5350 3075 50  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "" H 5300 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LT8302:LT8302 U7
+L relayBoard-rescue:LT8302-LT8302 U7
 U 1 1 631398F8
 P 5400 4350
 F 0 "U7" H 5400 4725 50  0000 C CNN
@@ -496,7 +497,7 @@ GATE_SUP
 Text Label 9400 4500 0    50   ~ 0
 GATE_GND
 $Comp
-L Device:Q_NJFET_GSD_copy Q43
+L relayBoard-rescue:Q_NJFET_GSD_copy-Device Q43
 U 1 1 631B6EF9
 P 8300 2450
 F 0 "Q43" H 8491 2496 50  0000 L CNN
@@ -524,7 +525,7 @@ Wire Wire Line
 Text HLabel 7850 1500 0    50   Input ~ 0
 HV
 $Comp
-L 750313442:750313442 T1
+L relayBoard-rescue:750313442-750313442 T1
 U 1 1 5F3AB14D
 P 8000 4200
 F 0 "T1" H 8029 4717 50  0000 C CNN
