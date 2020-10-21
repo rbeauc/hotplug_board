@@ -14,18 +14,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L adum4121:ADuM4121 U6
+L relayBoard-rescue:ADuM4121-adum4121 U6
 U 1 1 63138DA1
 P 5300 2600
 F 0 "U6" H 5350 3075 50  0000 C CNN
 F 1 "ADuM4121" H 5350 2984 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 5300 2600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 5300 2600 50  0001 C CNN
 F 3 "" H 5300 2600 50  0001 C CNN
 	1    5300 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L LT8302:LT8302 U7
+L relayBoard-rescue:LT8302-LT8302 U7
 U 1 1 631398F8
 P 5400 4350
 F 0 "U7" H 5400 4725 50  0000 C CNN
@@ -453,14 +453,8 @@ Wire Wire Line
 Connection ~ 6550 3600
 Wire Wire Line
 	6550 4050 6550 4000
-Wire Wire Line
-	6950 4500 7550 4500
 Connection ~ 6950 4500
-Wire Wire Line
-	7550 3600 6950 3600
 Connection ~ 6950 3600
-Wire Wire Line
-	8550 3600 8950 3600
 $Comp
 L Device:D_Schottky D151
 U 1 1 631A8A13
@@ -477,26 +471,18 @@ L Device:C C53
 U 1 1 631AA76D
 P 9400 4050
 F 0 "C53" H 9515 4096 50  0000 L CNN
-F 1 "220u" H 9515 4005 50  0000 L CNN
+F 1 "10u" H 9515 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" H 9438 3900 50  0001 C CNN
 F 3 "~" H 9400 4050 50  0001 C CNN
 	1    9400 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9400 3600 9250 3600
-Wire Wire Line
-	9400 3600 9400 3900
-Wire Wire Line
-	8550 4500 9400 4500
-Wire Wire Line
-	9400 4500 9400 4200
 Text Label 9400 3600 0    50   ~ 0
 GATE_SUP
 Text Label 9400 4500 0    50   ~ 0
 GATE_GND
 $Comp
-L Device:Q_NJFET_GSD_copy Q43
+L relayBoard-rescue:Q_NJFET_GSD_copy-Device Q43
 U 1 1 631B6EF9
 P 8300 2450
 F 0 "Q43" H 8491 2496 50  0000 L CNN
@@ -523,39 +509,6 @@ Wire Wire Line
 	8400 1500 7850 1500
 Text HLabel 7850 1500 0    50   Input ~ 0
 HV
-$Comp
-L 750313442:750313442 T1
-U 1 1 5F3AB14D
-P 8000 4200
-F 0 "T1" H 8029 4717 50  0000 C CNN
-F 1 "750313457" H 8029 4626 50  0000 C CNN
-F 2 "EP10_SMD_H_8PIN_(6052)" H 8000 4200 50  0001 L BNN
-F 3 "" H 8000 4200 50  0001 C CNN
-	1    8000 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 3900 7600 3900
-Wire Wire Line
-	7550 3600 7550 3900
-Wire Wire Line
-	7550 4200 7600 4200
-Wire Wire Line
-	7550 4200 7550 4500
-Wire Wire Line
-	8550 4200 8550 4500
-Wire Wire Line
-	8550 3600 8550 3900
-Wire Wire Line
-	8400 3900 8500 3900
-Connection ~ 8500 3900
-Wire Wire Line
-	8500 3900 8550 3900
-Wire Wire Line
-	8400 4200 8500 4200
-Connection ~ 8500 4200
-Wire Wire Line
-	8500 4200 8550 4200
 Text HLabel 7850 1400 0    50   Input ~ 0
 HV_OUT
 Wire Wire Line
@@ -565,4 +518,47 @@ Wire Wire Line
 Wire Wire Line
 	9150 1400 7850 1400
 Connection ~ 8400 2950
+Wire Wire Line
+	8400 4200 8500 4200
+Wire Wire Line
+	7600 3600 7600 3900
+Wire Wire Line
+	6950 3600 7600 3600
+Wire Wire Line
+	7600 4500 7600 4200
+Wire Wire Line
+	6950 4500 7600 4500
+Wire Wire Line
+	9400 3600 9250 3600
+Wire Wire Line
+	9400 3600 9400 3900
+Wire Wire Line
+	9400 4500 9400 4200
+Wire Wire Line
+	8400 3900 8500 3900
+$Comp
+L relayBoard-rescue:750313442-750313442 T1
+U 1 1 5F3AB14D
+P 8000 4200
+F 0 "T1" H 8029 4717 50  0000 C CNN
+F 1 "750313445" H 8029 4626 50  0000 C CNN
+F 2 "EP10_SMD_H_8PIN_(6052)" H 8000 4200 50  0001 L BNN
+F 3 "" H 8000 4200 50  0001 C CNN
+	1    8000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3900 8750 3900
+Wire Wire Line
+	8750 3900 8750 4500
+Connection ~ 8500 3900
+Wire Wire Line
+	8750 4500 9400 4500
+Wire Wire Line
+	8600 4200 8500 4200
+Connection ~ 8500 4200
+Wire Wire Line
+	8600 3600 8600 4200
+Wire Wire Line
+	8600 3600 8950 3600
 $EndSCHEMATC

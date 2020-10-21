@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:relayBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -2833,37 +2832,37 @@ IN5
 Text Label 1700 2750 0    50   ~ 0
 IN6
 Text Label 800  3100 0    50   ~ 0
-IN7
+IN6
 Text Label 1700 3100 0    50   ~ 0
-IN7
+IN6
 Text Label 800  3200 0    50   ~ 0
-IN8
+IN7
 Text Label 1700 3200 0    50   ~ 0
-IN9
+IN8
 Text Label 800  3300 0    50   ~ 0
-IN10
+IN9
 Text Label 1700 3300 0    50   ~ 0
-IN11
+IN10
 Text Label 800  3400 0    50   ~ 0
-IN12
+IN11
 Text Label 1700 3400 0    50   ~ 0
-IN13
+IN12
 Text Label 800  3750 0    50   ~ 0
-IN14
+IN12
 Text Label 1700 3750 0    50   ~ 0
-IN14
+IN12
 Text Label 800  3850 0    50   ~ 0
-IN15
+IN13
 Text Label 1700 3850 0    50   ~ 0
-IN16
+IN14
 Text Label 800  3950 0    50   ~ 0
-IN17
+IN15
 Text Label 1700 3950 0    50   ~ 0
-IN18
+IN16
 Text Label 800  4050 0    50   ~ 0
-IN19
+IN17
 Text Label 1700 4050 0    50   ~ 0
-IN20
+IN18
 Text Label 15350 2450 0    50   ~ 0
 OUT5
 Text Label 16250 2450 0    50   ~ 0
@@ -2881,39 +2880,93 @@ OUT0
 Text Label 16250 2750 0    50   ~ 0
 OUT0
 Text Label 15350 3100 0    50   ~ 0
-OUT12
-Text Label 16250 3100 0    50   ~ 0
-OUT13
-Text Label 15350 3200 0    50   ~ 0
-OUT10
-Text Label 16250 3200 0    50   ~ 0
 OUT11
-Text Label 15350 3300 0    50   ~ 0
-OUT8
-Text Label 16250 3300 0    50   ~ 0
-OUT9
-Text Label 15350 3400 0    50   ~ 0
-OUT7
+Text Label 16250 3100 0    50   ~ 0
+OUT12
+Text Label 16250 3200 0    50   ~ 0
+OUT10
 Text Label 16250 3400 0    50   ~ 0
-OUT7
+OUT6
 Text Label 15350 3750 0    50   ~ 0
-OUT19
-Text Label 16250 3750 0    50   ~ 0
-OUT20
-Text Label 15350 3850 0    50   ~ 0
 OUT17
-Text Label 16250 3850 0    50   ~ 0
+Text Label 16250 3750 0    50   ~ 0
 OUT18
-Text Label 15350 3950 0    50   ~ 0
+Text Label 15350 3850 0    50   ~ 0
 OUT15
-Text Label 16250 3950 0    50   ~ 0
+Text Label 16250 3850 0    50   ~ 0
 OUT16
+Text Label 15350 3950 0    50   ~ 0
+OUT13
+Text Label 16250 3950 0    50   ~ 0
+OUT14
 Text Label 15350 4050 0    50   ~ 0
-OUT14
+OUT12
 Text Label 16250 4050 0    50   ~ 0
-OUT14
+OUT12
 Wire Wire Line
 	5800 9650 5300 9650
 Text Label 5300 9650 0    50   ~ 0
 INPUT_2
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J19
+U 1 1 5F8C51E4
+P 1200 4500
+F 0 "J19" H 1250 4817 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 1250 4726 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 1200 4500 50  0001 C CNN
+F 3 "~" H 1200 4500 50  0001 C CNN
+	1    1200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4400 800  4400
+Wire Wire Line
+	1500 4400 1700 4400
+Wire Wire Line
+	1500 4500 1700 4500
+Wire Wire Line
+	800  4500 1000 4500
+Text Label 800  4400 0    50   ~ 0
+IN18
+Text Label 1700 4400 0    50   ~ 0
+IN18
+Text Label 800  4500 0    50   ~ 0
+IN19
+Text Label 1700 4500 0    50   ~ 0
+IN20
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J20
+U 1 1 5FBF1EBB
+P 15750 4500
+F 0 "J20" H 15800 4817 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 15800 4726 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 15750 4500 50  0001 C CNN
+F 3 "~" H 15750 4500 50  0001 C CNN
+	1    15750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15550 4600 15350 4600
+Wire Wire Line
+	15550 4700 15350 4700
+Wire Wire Line
+	16250 4600 16050 4600
+Wire Wire Line
+	16250 4700 16050 4700
+Text Label 15350 4700 0    50   ~ 0
+OUT18
+Text Label 15350 3200 0    50   ~ 0
+OUT9
+Text Label 15350 3300 0    50   ~ 0
+OUT7
+Text Label 16250 3300 0    50   ~ 0
+OUT8
+Text Label 15350 3400 0    50   ~ 0
+OUT6
+Text Label 16250 4700 0    50   ~ 0
+OUT18
+Text Label 16250 4600 0    50   ~ 0
+OUT20
+Text Label 15350 4600 0    50   ~ 0
+OUT19
 $EndSCHEMATC
